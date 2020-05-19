@@ -4,7 +4,7 @@ A proof-of-concept implementation for ''A New Code-based Cryptosystem (CBCrypto 
 The code is written for SageMath 9.0.
 USAGE:
 - - -
-'''
+```
 sage: load('ikk_simulation.py')
 sage: pk, sk = key_gen(n, k)
 sage: u = random_vector(R, k)
@@ -14,4 +14,4 @@ True
 sage: sln1, sln2 = attack(pk, ct)
 sage: vector(sln1) == u
 True
-'''
+```
