@@ -2,10 +2,12 @@
 A proof-of-concept implementation for ''A New Code-based Cryptosystem (CBCrypto '20)" and ciphertext-only attack on  it.
 
 The code is written for SageMath 9.0.
+
 USAGE:
 - - -
 ```
 sage: load('ikk_simulation.py')
+sage: n = 1024; k = 524; R = GF(2)
 sage: pk, sk = key_gen(n, k)
 sage: u = random_vector(R, k)
 sage: ct = enc(pk, u)
