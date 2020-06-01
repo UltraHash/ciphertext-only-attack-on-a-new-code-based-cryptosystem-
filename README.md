@@ -1,4 +1,4 @@
-# Ciphertext-only Attack on ''A New Code-based Cryptosystem (CBCrypto '20)''
+# Cryptanalysis of ''A New Code-based Cryptosystem (CBCrypto '20)''
 A proof-of-concept implementation for ''A New Code-based Cryptosystem (CBCrypto '20)" and ciphertext-only attack on  it.
 
 The code is written for SageMath 9.0.
